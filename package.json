@@ -1,0 +1,29 @@
+{
+  "name": "opgg-duo-scraper",
+  "version": "2.1.7",
+  "description": "A promised based op.gg scraper for League of Legends but with 'recently played with' \r section.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "league",
+    "of",
+    "legends",
+    "opgg",
+    "scraper",
+    "recently",
+    "played",
+    "with",
+    "match",
+    "history"
+  ],
+  "author": "Jesus Yanez",
+  "license": "ISC",
+  "repository": "jesusyanez/opgg-duo-scraper",
+  "dependencies": {
+    "puppeteer": "^5.5.0",
+    "puppeteer-extra": "^3.1.15",
+    "puppeteer-extra-plugin-adblocker": "^2.11.9"
+  }
+}
