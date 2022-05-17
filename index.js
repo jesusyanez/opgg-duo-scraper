@@ -31,7 +31,7 @@ exports.getStats = async (user, region, refresh) => {
 
         const level = await page.$eval('.level', e => e.innerText);
         const image = await page.$eval('.profile-icon img', e => e.src);
-        const recentlyPlayedWith = await page.$$eval('.css-19xo3qz > table:nth-child(2) > tbody:nth-child(3) > tr', rows => {
+        const recentlyPlayedWith = await page.$$eval('.css-15ca8qb > table:nth-child(2) > tbody:nth-child(4) > tr', rows => {
             return Array.from(rows, row => {
               const columns = row.querySelectorAll('td');
               return Array.from(columns, column => column.innerText);

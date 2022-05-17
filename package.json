@@ -1,6 +1,6 @@
 {
   "name": "opgg-duo-scraper",
-  "version": "2.1.7",
+  "version": "3.0.0",
   "description": "A promised based op.gg scraper for League of Legends but with 'recently played with' \r section.",
   "main": "index.js",
   "scripts": {
