@@ -1,6 +1,6 @@
 # About
 
-A promised based op.gg scraper for League of Legends with the 'recently played 
+A promised based op.gg scraper for League of Legends with 'recently played 
 with' section.
 
 
