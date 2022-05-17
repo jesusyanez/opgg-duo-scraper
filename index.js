@@ -38,7 +38,7 @@ exports.getStats = async (user, region, refresh) => {
             });
           }).catch(() => { return 'none' });
 
-        recentlyPlayedWith.unshift(['Summoner', 'Played', 'W - L', 'Win Ratio']);
+        recentlyPlayedWith.unshift(['Summoner', 'Played', 'W - L', 'W/L Ratio']);
 
         const stats = {
             'Name': user,
